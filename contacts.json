@@ -1,0 +1,23 @@
+{
+    "contact": {
+        "firstName": "Isabella",
+        "lastName": "Gonçalves",
+        "email": "beautifulwoman@test.com",
+        "favoriteColor": "White",
+        "birthday": "06/07/1998"
+    },
+    "contact2": {
+        "firstName": "Neide",
+        "lastName": "Rodrigues",
+        "email": "sweetmom@test.com",
+        "favoriteColor": "Red",
+        "birthday": "09/04/1970"
+    },
+    "contact3": {
+        "firstName": "Hyrum",
+        "lastName": "Rodrigues",
+        "email": "amazingbrother@test.com",
+        "favoriteColor": "Blue",
+        "birthday": "01/16/2001"
+    }
+}

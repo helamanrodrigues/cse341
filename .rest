@@ -1,1 +1,10 @@
-GET https://cse341-ctzc.onrender.com HTTP/1.1
+// LOCALHOST ### 
+GET http://localhost:8080/contacts 
+### 
+GET http://localhost:8080/contacts/63f8171bfbf8c1babf603e11 
+### 
+GET http://localhost:8080/contacts/63f8171bfbf8c1babf603e12 
+### 
+GET http://localhost:8080/contacts/63f8171bfbf8c1babf603e13
+
+// PRODUCTION Deploy ### 
