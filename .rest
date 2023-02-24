@@ -7,4 +7,12 @@ GET http://localhost:8080/contacts/63f8171bfbf8c1babf603e12
 ### 
 GET http://localhost:8080/contacts/63f8171bfbf8c1babf603e13
 
-// PRODUCTION Deploy ### 
+// PRODUCTION Deploy 
+### 
+GET https://cse341-1uj6.onrender.com/contacts HTTP/1:1
+###
+GET https://cse341-1uj6.onrender.com/contacts/63f8171bfbf8c1babf603e11 HTTP/1:1
+###
+GET https://cse341-1uj6.onrender.com/contacts/63f8171bfbf8c1babf603e12
+###
+GET https://cse341-1uj6.onrender.com/contacts/63f8171bfbf8c1babf603e13
