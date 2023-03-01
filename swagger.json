@@ -5,7 +5,7 @@
     "description": "Temple API",
     "version": "1.0.0"
   },
-  "host": "cse341-assignment04.onrender.com/contacts",
+  "host": "cse341-assignment04.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
