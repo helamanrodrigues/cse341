@@ -8,7 +8,7 @@ const app = express();
 app
     .use(bodyParser.json())
     .use((req, res, next) => {
-        res.setHeader('Acess-Control-Allow-Origin', '*');
+        res.setHeader('Acess-Control-Allow-Origin', 'https://cse341-contacts-frontend.netlify.app/');
         res.setHeader(
             'Acess-Control-Allow-Headers',
             'Origin, X-Requested-With, Content-Type, Accept, Z-Key'
