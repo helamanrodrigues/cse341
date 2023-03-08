@@ -5,10 +5,10 @@
     "description": "Heroes API",
     "version": "1.0.0"
   },
-  "host": "cse341-assignment05.onrender.com",
+  "host": "localhost:8080",
   "basePath": "/",
   "schemes": [
-    "https"
+    "http"
   ],
   "paths": {
     "/api-docs": {
@@ -92,74 +92,6 @@
         "responses": {
           "200": {
             "description": "OK"
-          }
-        }
-      },
-      "put": {
-        "description": "",
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "type": "string"
-          },
-          {
-            "name": "body",
-            "in": "body",
-            "schema": {
-              "type": "object",
-              "properties": {
-                "heroName": {
-                  "example": "any"
-                },
-                "humanName": {
-                  "example": "any"
-                },
-                "superPower": {
-                  "example": "any"
-                },
-                "normalJob": {
-                  "example": "any"
-                },
-                "romanticPartner": {
-                  "example": "any"
-                },
-                "worstEnemy": {
-                  "example": "any"
-                },
-                "company": {
-                  "example": "any"
-                }
-              }
-            }
-          }
-        ],
-        "responses": {
-          "204": {
-            "description": "No Content"
-          },
-          "500": {
-            "description": "Internal Server Error"
-          }
-        }
-      },
-      "delete": {
-        "description": "",
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "type": "string"
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          },
-          "500": {
-            "description": "Internal Server Error"
           }
         }
       }
