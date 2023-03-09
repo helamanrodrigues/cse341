@@ -15,6 +15,23 @@ content-type: application/json
     "company": "DC"
 }
 
+### PUT contact
+PUT http://localhost:8080/heroes/6406915da422f88393232990 HTTP/1.1 
+content-type: application/json
+
+{
+    "heroName": "Spiderman",
+    "humanName": "Peter Paker",
+    "superPower": "Spider Powers",
+    "normalJob": "Photographer",
+    "romanticPartner": "Gwen Stacy",
+    "worstEnemy": "Green Goblin",
+    "company": "Marvel"
+}
+
+### DELETE contact
+DELETE http://localhost:8080/heroes/640801708ab28d2f552f1346 HTTP/1.1 
+
 // PRODUCTION Deploy 
 ### 
 GET https://cse341-assignment05.onrender.com/heroes HTTP/1:1
@@ -32,3 +49,20 @@ content-type: application/json
     "worstEnemy": "Joker",
     "company": "DC"
 }
+
+### PUT contact
+PUT https://cse341-assignment05.onrender.com/heroes/6406915da422f88393232990 HTTP/1.1 
+content-type: application/json
+
+{
+    "heroName": "Spiderman",
+    "humanName": "Peter Paker",
+    "superPower": "Spider Powers",
+    "normalJob": "Photographer",
+    "romanticPartner": "Gwen Stacy",
+    "worstEnemy": "Green Goblin",
+    "company": "Marvel"
+}
+
+### DELETE contact
+DELETE https://cse341-assignment05.onrender.com/heroes/640801708ab28d2f552f1346 HTTP/1.1 

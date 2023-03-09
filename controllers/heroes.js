@@ -40,7 +40,6 @@ const createHero = async (req, res) => {
     }
 };
 
-/*
 const updateHero = async (req, res) => {
     const userId = new ObjectId(req.params.id);
     const hero = {
@@ -75,6 +74,3 @@ const deleteHero = async (req, res) => {
 
 
 module.exports = { getAll, getSingle, createHero, updateHero, deleteHero };
-*/
-
-module.exports = { getAll, getSingle, createHero };
