@@ -8,14 +8,16 @@ const app = express();
 app
     .use(bodyParser.json())
     .use((req, res, next) => {
-        res.setHeader('Acess-Control-Allow-Origin', '*');
+        res.setHeader('Acess-Control-Allow-Origin', 'https://cse341-contacts-frontend.netlify.app/');
+        res.setHeader(
+            'Acess-Control-Allow-Headers',
+            'Origin, X-Requested-With, Content-Type, Accept, Z-Key'
+        );
+        res.setHeader('Content-Type', 'application/json');
+        res.setHeader('Acess-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
         next();
     })
     .use('/', require('./routes'));
-    
-process.on('uncaughtException', (err, origin) => {
-    console.log(process.stderr.fd, `Caught exception: ${err}\n` + `Exception origin: ${origin}`);
-});
     
 mongodb.initDb((err) => {
     if (err) {

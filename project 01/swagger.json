@@ -2,13 +2,13 @@
   "swagger": "2.0",
   "info": {
     "title": "My API",
-    "description": "Heroes API",
+    "description": "Contacts API",
     "version": "1.0.0"
   },
-  "host": "localhost:8080",
+  "host": "cse341-assignment04.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/api-docs": {
@@ -18,7 +18,7 @@
         "responses": {}
       }
     },
-    "/heroes/": {
+    "/contacts/": {
       "get": {
         "description": "",
         "produces": [
@@ -40,25 +40,19 @@
             "schema": {
               "type": "object",
               "properties": {
-                "heroName": {
+                "firstName": {
                   "example": "any"
                 },
-                "humanName": {
+                "lastName": {
                   "example": "any"
                 },
-                "superPower": {
+                "email": {
                   "example": "any"
                 },
-                "normalJob": {
+                "favoriteColor": {
                   "example": "any"
                 },
-                "romanticPartner": {
-                  "example": "any"
-                },
-                "worstEnemy": {
-                  "example": "any"
-                },
-                "company": {
+                "birthday": {
                   "example": "any"
                 }
               }
@@ -75,7 +69,7 @@
         }
       }
     },
-    "/heroes/{id}": {
+    "/contacts/{id}": {
       "get": {
         "description": "",
         "produces": [
@@ -110,25 +104,19 @@
             "schema": {
               "type": "object",
               "properties": {
-                "heroName": {
+                "firstName": {
                   "example": "any"
                 },
-                "humanName": {
+                "lastName": {
                   "example": "any"
                 },
-                "superPower": {
+                "email": {
                   "example": "any"
                 },
-                "normalJob": {
+                "favoriteColor": {
                   "example": "any"
                 },
-                "romanticPartner": {
-                  "example": "any"
-                },
-                "worstEnemy": {
-                  "example": "any"
-                },
-                "company": {
+                "birthday": {
                   "example": "any"
                 }
               }
