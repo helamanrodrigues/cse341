@@ -1,0 +1,119 @@
+// LOCALHOST
+### Get all heroes
+GET http://localhost:3000/heroes
+### Get all villains
+GET http://localhost:3000/villains
+
+
+### Get hero by id
+GET http://localhost:3000/heroes/640a81d643b802f4f23c73d2
+### Get villain by id
+GET http://localhost:3000/villains/6411099371135324c30e06a1
+
+
+### Create hero
+POST http://localhost:3000/heroes HTTP/1.1
+content-type: application/json
+
+{
+    "heroName": "Batman",
+    "humanName": "Bruce Wayne",
+    "superPower": "Expensive acessories and intelligence",
+    "normalJob": "Business Man",
+    "romanticPartner": "Catwoman",
+    "worstEnemy": "Joker",
+    "company": "DC"
+}
+
+### Create villain
+POST http://localhost:3000/villains HTTP/1.1
+content-type: application/json
+
+{
+    "villainName": "Joker",
+    "humanName": "Curtis Base",
+    "superPower": "Genius-level intelligence",
+    "normalJob": "Terrorist",
+    "worstHero": "Batman",
+    "company": "DC"
+}
+
+
+### PUT hero
+PUT http://localhost:3000/heroes/640a81d643b802f4f23c73d2 HTTP/1.1
+content-type: application/json
+
+{
+    "heroName": "Batman",
+    "humanName": "Bruce Wayne",
+    "superPower": "Expensive acessories and smart",
+    "normalJob": "Business Man",
+    "romanticPartner": "WonderWoman",
+    "worstEnemy": "Joker",
+    "company": "DC"
+}
+
+### PUT villain
+PUT http://localhost:3000/villains/64110df37efd512ebdc5b3de HTTP/1.1
+content-type: application/json
+
+{
+    "villainName": "Joker",
+    "humanName": "Curtis Base",
+    "superPower": "Genius-level",
+    "normalJob": "Terrorist",
+    "worstHero": "Batman",
+    "company": "DC"
+}
+
+### DELETE hero
+DELETE http://localhost:3000/heroes/640a81d643b802f4f23c73d2 HTTP/1.1
+
+### DELETE villain
+DELETE http://localhost:3000/villains/64110df37efd512ebdc5b3de HTTP/1.1
+
+
+// ---------------------------------------------------------------------------- //
+
+
+// PRODUCTION Deploy
+### Get all heroes
+GET https://cse341-assignment06.onrender.com/heroes
+
+
+### Get hero by id
+GET https://cse341-assignment06.onrender.com/heroes/6406915da422f88393232990
+
+
+### Create hero
+POST https://cse341-assignment06.onrender.com/heroes HTTP/1.1
+content-type: application/json
+
+{
+    "heroName": "Batman",
+    "humanName": "Bruce Wayne",
+    "superPower": "Expensive acessories and smart",
+    "normalJob": "Business Man",
+    "romanticPartner": "WonderWoman",
+    "worstEnemy": "Joker",
+    "company": "DC"
+}
+
+
+### PUT hero
+PUT https://cse341-assignment06.onrender.com/heroes/640a910b87ff850182bbaab5 HTTP/1.1
+content-type: application/json
+
+{
+    "heroName": "Batman",
+    "humanName": "Bruce Wayne",
+    "superPower": "Expensive acessories and smart one",
+    "normalJob": "Business Man",
+    "romanticPartner": "Catwoman",
+    "worstEnemy": "Joker",
+    "company": "DC"
+}
+
+
+### DELETE hero
+DELETE https://cse341-assignment06.onrender.com/heroes/6406915da422f88393232990 HTTP/1.1

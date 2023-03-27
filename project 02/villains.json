@@ -1,0 +1,26 @@
+{
+    "villain": {
+        "villainName": "Green Goblin",
+        "humanName": "Norman Osborn",
+        "superPower": "Goblin Powers",
+        "normalJob": "Business Man",
+        "worstHero": "Spider Man",
+        "company": "Marvel"
+    },
+    "villain2": {
+        "villainName": "Iron Monger",
+        "humanName": "Obadiah Stane",
+        "superPower": "Iron Armor",
+        "normalJob": "Business Man",
+        "worstHero": "Iron Man",
+        "company": "Marvel"
+    },
+    "villain3": {
+        "villainName": "Red Skull",
+        "humanName": "Johann Shmidt",
+        "superPower": "Superhuman strength",
+        "normalJob": "Nazi Agent",
+        "worstHero": "Captain America",
+        "company": "Marvel"
+    }
+  }
